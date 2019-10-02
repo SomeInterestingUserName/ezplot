@@ -12,9 +12,11 @@ Usage: `blah | python3 ezplot.py` where `blah` is a command or program that prin
 
 
 
-Example: `cat data.txt | python3 ezplot.py --xaxis "Sample" --yaxis "Value" --title "Contents of data.txt" --plot line points`
+### Example
 
-data.txt:
+`cat data.txt | python3 ezplot.py --xaxis "Sample" --yaxis "Value" --title "Contents of data.txt" --plot line points`
+
+#### data.txt
 
 ```
 100
@@ -24,6 +26,6 @@ data.txt:
 1600
 ```
 
-Output:
+#### Output
 
 ![](https://github.com/SomeInterestingUserName/ezplot/raw/master/doc/Figure_example.png "An example plot")
