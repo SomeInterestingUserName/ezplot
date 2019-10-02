@@ -75,7 +75,7 @@ fig, ax = plt.subplots()
 
 # Translate line and marker types to matplotlib's argument types
 type_line = 'solid' if 'line' in plot_type else 'None'
-type_marker = '.' if 'points' in plot_type else 'None'
+type_marker = 'o' if 'points' in plot_type else 'None'
 
 # Plot the data and set titles
 ax.plot(x_axis, y_axis, linestyle=type_line, marker=type_marker)
