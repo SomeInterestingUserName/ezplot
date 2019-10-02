@@ -1,5 +1,5 @@
 # ezplot
-A super-simple command-line based plotter for `matplotlib`. Graphs numbers piped to it, separated by newlines.
+A super-simple command-line plotter based on `matplotlib`. Graphs numbers piped to it, separated by newlines.
 
 Usage: `blah | python3 ezplot.py` where `blah` is a command or program that prints numerical data to `stdout`.
 
@@ -10,7 +10,7 @@ Usage: `blah | python3 ezplot.py` where `blah` is a command or program that prin
 * `-t` or `--title`: Set a title for the x-axis. Defaults to "Plot"
 * `-p` or `--plot`: One or more of `[line, points]` for a line and/or point plot, respectively. Defaults to line.
 
-
+All arguments are optional.
 
 ### Example
 
